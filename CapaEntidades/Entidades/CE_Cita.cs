@@ -15,7 +15,7 @@ namespace CapaEntidades
         public int Rating { get; set; }
         public int Price { get; set; }
         public int State { get; set; }
-        public int User { get; set; }
+        public string User { get; set; }
         public int Service { get; set; }
         public int Barber { get; set; }
         public int Employee { get; set; }

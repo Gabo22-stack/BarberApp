@@ -13,7 +13,7 @@ namespace CapaEntidades
         public string LastName { get; set; }
         public string Phone { get; set; }
         public string Description { get; set; }
-        public bool State { get; set; }
+        public int State { get; set; }
         public int Barber { get; set; }
     }
 }
