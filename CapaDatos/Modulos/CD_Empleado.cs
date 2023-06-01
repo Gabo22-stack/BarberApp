@@ -36,8 +36,8 @@ namespace CapaDatos
             cmd.Parameters.AddWithValue("@LastName", Empleado.LastName);
             cmd.Parameters.AddWithValue("@Phone", Empleado.Phone);
             cmd.Parameters.AddWithValue("@Description", Empleado.Description);
-            cmd.Parameters.AddWithValue("@StateID", Empleado.State);
-            cmd.Parameters.AddWithValue("@BarberID", Empleado.Barber);
+            cmd.Parameters.AddWithValue("@State", Empleado.State);
+            cmd.Parameters.AddWithValue("@Barber", Empleado.Barber);
             cmd.ExecuteNonQuery();
             cmd.Parameters.Clear();
             conexion.CerrarConexion();
@@ -52,8 +52,8 @@ namespace CapaDatos
             cmd.Parameters.AddWithValue("@LastName", Empleado.LastName);
             cmd.Parameters.AddWithValue("@Phone", Empleado.Phone);
             cmd.Parameters.AddWithValue("@Description", Empleado.Description);
-            cmd.Parameters.AddWithValue("@StateID", Empleado.State);
-            cmd.Parameters.AddWithValue("@BarberID", Empleado.Barber);
+            cmd.Parameters.AddWithValue("@State", Empleado.State);
+            cmd.Parameters.AddWithValue("@Barber", Empleado.Barber);
             cmd.ExecuteNonQuery();
             cmd.Parameters.Clear();
             conexion.CerrarConexion();
