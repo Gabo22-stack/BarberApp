@@ -44,48 +44,70 @@ namespace CapaPresentacion
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
+            string Horaseleccionada = string.Empty;
             if (Op1.Checked)
             {
-                ValorHora = 1;
+                Horaseleccionada = Op1.Text;
             }
             else if (Op2.Checked)
             {
-                ValorHora = 2;
+                Horaseleccionada = Op2.Text;
             }
             else if (Op3.Checked)
             {
-                ValorHora = 3;
+                Horaseleccionada = Op3.Text;
             }
             else if (Op4.Checked)
             {
-                ValorHora = 4;
+                Horaseleccionada = Op4.Text;
             }
             else if (Op5.Checked)
             {
-                ValorHora = 5;
+                Horaseleccionada = Op5.Text;
             }
             else if (Op6.Checked)
             {
-                ValorHora = 6;
+                Horaseleccionada = Op6.Text;
             }
             else if (Op7.Checked)
             {
-                ValorHora = 7;
+                Horaseleccionada = Op7.Text;
             }
             else if (Op8.Checked)
             {
-                ValorHora = 8;
+                Horaseleccionada = Op8.Text;
             }
             else if (Op9.Checked)
             {
-                ValorHora = 9;
+                Horaseleccionada = Op9.Text;
             }
             else if (Op10.Checked)
             {
-                ValorHora = 10;
+                Horaseleccionada = Op10.Text;
             }
-            OCE_CITA.Date = MonthCa.SelectionStart; // Obtener el valor de MonthCalendar
-            OCE_CITA.Time = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, ValorHora, 0, 0);// Crear un objeto DateTime con la fecha actual y
+            else if (Op11.Checked)
+            {
+                Horaseleccionada = Op11.Text;
+            }
+            else if (Op12.Checked)
+            {
+                Horaseleccionada = Op12.Text;
+            }
+            else if (Op13.Checked)
+            {
+                Horaseleccionada = Op13.Text;
+            }
+            else if (Op14.Checked)
+            {
+                Horaseleccionada = Op14.Text;
+            }
+            else if (Op15.Checked)
+            {
+                Horaseleccionada = Op15.Text;
+            }
+
+            OCE_CITA.Date = MonthCa.SelectionStart;
+            OCE_CITA.Time = DateTime.Parse(Horaseleccionada);
             OCE_CITA.Comment = "";
             OCE_CITA.Rating = 0;
             float Valorcorte = Convert.ToSingle(LblDinero.Text);
@@ -97,12 +119,13 @@ namespace CapaPresentacion
             OCE_CITA.Employee = GlobalEmpleados.IdEmpleado;
             OCN_CITA.CrearCita(OCE_CITA);
             MessageBox.Show("¡Su cita ha sido agendada con exito!");
-            Principal newform = new Principal();
             this.Hide();
-            //newform.Show();
-            
+            Principal newform = new Principal();
+            newform.Show();
+            MonthCa.Size = new Size(369, 307);
+
         }
 
-     
+
     }
 }

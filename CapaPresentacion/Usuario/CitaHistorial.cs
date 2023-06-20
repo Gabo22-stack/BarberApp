@@ -22,5 +22,6 @@ namespace CapaPresentacion
         {
             dgvHistorial.DataSource = ocn_historial.VisualizarCita();
         }
+
     }
 }

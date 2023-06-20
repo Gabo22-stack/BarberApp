@@ -18,8 +18,8 @@ namespace CapaDatos
         {
             TablaUsuario.Clear();
             cmd.Connection = conexion.AbrirConexion();
-            cmd.CommandText = "select * from Historial";
-            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "Sp_ViewAppointments";
+            cmd.CommandType = CommandType.StoredProcedure;
             Leer = cmd.ExecuteReader();
             TablaUsuario.Load(Leer);
             cmd.Parameters.Clear();
