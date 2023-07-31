@@ -17,6 +17,11 @@ namespace CapaPresentacion
             InitializeComponent();
         }
 
-        
+        private void BtnRegresar_Click(object sender, EventArgs e)
+        {
+            Principal newform = new Principal();
+            newform.Show();
+            this.Hide();
+        }
     }
 }

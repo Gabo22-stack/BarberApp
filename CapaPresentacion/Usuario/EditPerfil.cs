@@ -54,5 +54,12 @@ namespace CapaPresentacion
             ocn_usuario.EditarUsuario(oce_usuario);
             MessageBox.Show("Sus datos se han editado correctamente.");
         }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Principal principal = new Principal();
+            principal.Show();
+        }
     }
 }

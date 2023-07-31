@@ -1,9 +1,9 @@
-﻿using System;
+﻿using CapaNegocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,75 +14,86 @@ namespace CapaPresentacion
     public partial class Principal : Form
     {
         public static int IdServicio = 0;
+        public float Valorcorte = 0;
+        CN_Historial ocn_historial = new CN_Historial();
         public Principal()
         {
             InitializeComponent();
             
         }
-        #region
-        private void CargarForm(Form NuevoFormulario)
+
+        private void BtnCitas_Click(object sender, EventArgs e)
         {
-            this.PanelHome.Controls.Clear();
-            NuevoFormulario.TopLevel = false;
-            NuevoFormulario.Dock = DockStyle.Fill;
-            this.PanelHome.Controls.Add(NuevoFormulario);
-            NuevoFormulario.Show();
+            DataTable tablaCitas = ocn_historial.VisualizarCita();
+
+            if (tablaCitas.Rows.Count == 0)
+            {
+                MessageBox.Show("No tienes citas agendadas.", "Citas Historial", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
+            }
+            else
+            {
+                CitaHistorial newform = new CitaHistorial();
+                newform.Show();
+            }
         }
-        
-
-        #endregion
-        private void Principal_Load(object sender, EventArgs e)
-        {
-
-        }
-     
-
         private void btnPerfil_Click(object sender, EventArgs e)
         {
-            //CargarForm(new Perfil());
-            Perfil perfil = new Perfil();
-            perfil.Show();
+            PerfilMuestra newform = new PerfilMuestra();
+            newform.Show();
+            this.Hide();
+        }
+
+        private void BtnComentarios_Click(object sender, EventArgs e)
+        {
+            Comentario newform = new Comentario();
+            newform.Show();
             this.Hide();
         }
 
         private void BtnCorteNiño_Click(object sender, EventArgs e)
         {
-            CargarForm(new Personal());
-            IdServicio = 3;
+            Personal newform = new Personal();
+            newform.Show();
+            this.Hide();
+            IdServicio = 1;
+            
         }
 
         private void BtnCorteAdulto_Click(object sender, EventArgs e)
         {
-            CargarForm(new Personal());
-            IdServicio = 4;
+            Personal newform = new Personal();
+            newform.Show();
+            this.Hide();
+            IdServicio = 2;
+            
         }
 
         private void BtnCorteFiguras_Click(object sender, EventArgs e)
         {
-            CargarForm(new Personal());
-            IdServicio = 5;
+            Personal newform = new Personal();
+            newform.Show();
+            this.Hide();
+            IdServicio = 3;
+            
         }
 
         private void BtnManicuraHombre_Click(object sender, EventArgs e)
         {
-            CargarForm(new PersonalManicuristas());
-            IdServicio = 1;
+            PersonalManicura newform = new PersonalManicura();
+            newform.Show();
+            this.Hide();
+            IdServicio = 4;
+            
         }
 
         private void BtnManicuraMujer_Click(object sender, EventArgs e)
         {
-            CargarForm(new PersonalManicuristas());
-            IdServicio = 2;
-        }
-
-        private void BtnComentarios_Click(object sender, EventArgs e)
-        {
-            CargarForm(new Comentario());
-        }
-
-        private void BtnCitas_Click(object sender, EventArgs e)
-        {
-            CargarForm(new CitaHistorial());
+            PersonalManicura newform = new PersonalManicura();
+            newform.Show();
+            this.Hide();
+            IdServicio = 5;
+            
         }
     }
 }

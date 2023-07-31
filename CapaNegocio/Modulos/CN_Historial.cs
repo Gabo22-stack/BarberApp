@@ -17,5 +17,11 @@ namespace CapaNegocio
             TablaCita = ocd_historial.HistorialCitas();
             return TablaCita;
         }
+        public DataTable VisualizarCitaPorFecha(DateTime fecha)
+        {
+            DataTable tablaCitasPorFecha = new DataTable();
+            tablaCitasPorFecha = ocd_historial.HistorialCitasPorFecha(fecha);
+            return tablaCitasPorFecha;
+        }
     }
 }

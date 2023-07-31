@@ -20,5 +20,26 @@ namespace CapaPresentacion
             txtPhone.Text = CE_Global.Phone;
             txtEmail.Text = CE_Global.Email;
         }
+
+        private void BtnRegresar_Click(object sender, EventArgs e)
+        {
+            Principal newform = new Principal();
+            newform.Show();
+            this.Hide();
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            EditPerfil newform = new EditPerfil();
+            newform.Show();
+            this.Hide();
+        }
+
+        private void BtnLogout_Click(object sender, EventArgs e)
+        {
+            IniciarSesion newform = new IniciarSesion();
+            newform.Show();
+            this.Hide();
+        }
     }
 }

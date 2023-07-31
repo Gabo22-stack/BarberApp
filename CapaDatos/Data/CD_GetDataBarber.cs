@@ -12,7 +12,7 @@ namespace CapaDatos.Data
     {
         public static DataTable GetData(string userInput)
         {
-            SqlConnection conexion = new SqlConnection("Server=ANGEL\\SQLEXPRESS;Database=Barberia; Integrated Security=true");
+            SqlConnection conexion = new SqlConnection("Server=(Local);Database=Barberia; Integrated Security=true");
             SqlCommand cmd = new SqlCommand($"SELECT * FROM Barber WHERE BarberUser='{userInput}'", conexion);
             SqlDataAdapter data = new SqlDataAdapter(cmd);
             DataTable tabla = new DataTable();

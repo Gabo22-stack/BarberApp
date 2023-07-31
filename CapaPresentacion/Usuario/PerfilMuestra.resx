@@ -146,4 +146,56 @@
         WcAkFs1Z/+3j3Kpz8ZMxG0TqXRajRo0aNapVzczcA3C5Tx1eGcJyAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="BtnLogout.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAATrzAAE68wEXCzLMAAAAB3RJ
+        TUUH5gIUCRUd8hBw1QAAAfxJREFUaEPtmbtKxEAYRldtbLTwrqC+gddHEVQQEUXEThB8AB9GEextvBVq
+        5Q1EKxu1VNFWEC/ngwSGNZvNZmeym3UOHIjE/JkvM5MdJgWPx9P4tOFQlbZj5vTgOp7iAz5W4RluoGpm
+        wgge4Rf+WFK19nEUndKPxxjVCBseoNOeWEPzht/4gmmGka55RdUw62k4OaEV99AMsIsTOIhREzROXaNr
+        d9CseYJOJvYA3mN4o2e0MWYnUT0R1lXPKKB1VFRdH95IxzZu5KruH3yAEvyLAE3YGajjVLgK0I3XGNa9
+        weLfgim8CpzHFqwYVwHENN4FqoEmeuoXGN73DZex4hAuAzRjH/YGxybFAeQ7KkTx/8biMkA51Ct68mYI
+        /b2CiXuilgH0pBcxKkTi4ZQkgN4QHTiMOmdT1dzEDzRDJB5OKhIXQI2fxXN8Qp23qZYYqvuJZgCpnljA
+        WMoF0AS8RbNwll6iJnxJGj6AhpDeFiqkc7aNG0KaB5rksZQLIHI9iV2ixi2h89eoK+YwqvGrWBc/ZHrC
+        uV5K5Hox14VaJod1o5bTM6glt9TbpuLGC1cBktTV2009IXWciloGsIIPUILMAuR+Yytqa3EbxzDN1qIc
+        xy00azrbWhS53twVud9eFxr3CmH7A8chajhmgp5Sbj8xmeT2I5/H46l7CoVfnpcWFJA9/+gAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="btnEditar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAOw2AADsNgHVoobGAAAAB3RJ
+        TUUH5gweDxcAdyBcOQAAA2ZJREFUaEPt2UuoTVEcx/Hj/SZ555GYepWBQnnOGJmQMjBABkR5DTBQZgYy
+        UcqbRJE3Ka8SijEDUmKgGJD32/fH2fW3Wnuftdbe93Tp/OrTPffcc/ZZ/73/e52196210sr/l07oUafH
+        /0z6YhH240bdPiyE/tauMxxH8AU/HXruOPSadplRuAh34K5j6IPkdER3ZP3po7/rdTHZhO/wDdr6jCWI
+        ik6iMViGA7iGrD999Pet6IfQjMR5+Abt0hg6ICg6XOvxBN/g26CPXrsWRRmK0X8e/o76+zR827O0g3SU
+        G2YA9sJ3UoXQTJIX9fw53MZEPVGPjsRZ+LaXCSqgK3YgpC99VPQK+DICdpB3MQ5ZdCSK2kk7tWELzcdb
+        uG9+his4iROGpjjNEHIIy9EbbjR432xzD24Rvnb6BH1PFKYzDsK+UT19GOPRDXqNTm6fvBlIbVPUHm47
+        ua//AX2p+XbMX9GJpZPWbvwmBiI1btvkcdtJ78vaSUdEJ37DTMc72A2vRGo0iAuw2yvitpOOhGZCbSco
+        s/AR2Qb1eA5S0qht8rjtFDzvK7NhC/iAGYiN9tgZ2IHFuAPtgOhUUUBs2/icwiBEp2wBZfe8ZhtN08E9
+        76ZsAVtgBxRLs80wJKdMAfqOCFkW59GeLzV4pUwBWss8gh1UiNJtY1OmAE3B72EHF6J029iUKWAN7MBC
+        VNI2NqkFaA3krqGKFLWNvri61H9GJ7WA/rgPO8gieW2jKzldYup7ZGP996ikFjAWz2EHmaeobTYgu/rT
+        T/0eldQCpsJ3DaGLotd4AO31bcibbTQNX4Z9/yXo+eCkFqBluNYvL/EYV7ETSzEFQ6C+LoruaujGgC1A
+        v+v54KQWoBNOV1JaCutn1IfW4yvgOppSQBVpFaC0CiiRVgHKTGjQ2Qa+YgGakV64BVuA7kroRltwJuEV
+        7EZ2Q/d82jqT8QL2s3chKvpPiLsXVJCOQlsWMRj6B4f9XB39xYjOOtgNiYrQkVAhOieqMheroW9x9w74
+        QyRd5GhZoBtMdmMZ7RWdI1XR/U4trd3P0T8zViE52jtP4W64GbQA3IOeSI7WNipC9yt9H9JW3mA7dH1R
+        SXR3bDN0Ymul6WuDsnQvVivYo5iHRqvWpGh2mgB7AlZlGnRHQ7ftW2mluanVfgFlD7DuyEiibAAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="BtnRegresar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAJ15AACdeQFDYbRNAAAAB3RJ
+        TUUH5QENCggF8HMqrQAAAbFJREFUaEPt2EtKxEAUheGIOhUHvkUFdROC4AqcuADXoBvRPTQOVJyJiOtw
+        qILPkaAz8a3/aRKwY5mXpqpi14EPQtOk66YrSd2KQkJCujP9mMQMpmuk8w+jD3+WIWzgFBcWHGMLKxjA
+        r9ILDf4dH5Y9Yh+L6EGlaNqcwPQDtlxhGZXiQwFyiSWUjm6mTbiYQmmaToMoHVs38Tmu8QxTAQ9YRaXo
+        MTqBuh+js1jDLUxFHMH76ImzjlekC7hDIzKPG6QLkEZE00n3RSjAVUIBrhMKcJ3uLSDpvETHrlKpgBFo
+        5XkW07EWci5SuoAx7CC9bNYqVF2Z7ZQq4KfBi5oZrUJtp3ABo9iF6Yuik+hktlNoMacrr8FndVuuClBP
+        8IL0eO7RTta0+Uod0gKmoELqNofchkaD344/yKOroCLU7unfqJN+Q9Mmt6Vs4Q2mL/nsAO2m/in+oEk6
+        tlWaVsC3ja2mTCFtLR5CV75ja9HXmzhRaHM3KcK3x2ip7fVx7MHHF1nhaCmhF5pp8OJ9AUrWW9nVYq50
+        TNNJx+oJXCynK0UNjdb/PjQ0leNLSxkSEvI/E0WfCA6PU7xmDOgAAAAASUVORK5CYII=
+</value>
+  </data>
 </root>

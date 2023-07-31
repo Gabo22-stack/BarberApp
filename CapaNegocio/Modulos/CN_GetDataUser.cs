@@ -20,6 +20,7 @@ namespace CapaNegocio
                 CE_Global.Name = tabla.Rows[0][1].ToString();
                 CE_Global.Phone = tabla.Rows[0][0].ToString();
                 CE_Global.Email = tabla.Rows[0][2].ToString();
+                CE_Global.Password = tabla.Rows[0][3].ToString();
             }
             else
             {

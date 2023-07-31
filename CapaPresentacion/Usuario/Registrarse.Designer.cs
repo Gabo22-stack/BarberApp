@@ -41,6 +41,7 @@
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.txtConfContra = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.lblPassStatus = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxBack)).BeginInit();
             this.SuspendLayout();
@@ -178,12 +179,22 @@
             this.label2.TabIndex = 26;
             this.label2.Text = "CONFIRMAR CONTRASEÑA:";
             // 
+            // lblPassStatus
+            // 
+            this.lblPassStatus.AutoSize = true;
+            this.lblPassStatus.Location = new System.Drawing.Point(28, 381);
+            this.lblPassStatus.Name = "lblPassStatus";
+            this.lblPassStatus.Size = new System.Drawing.Size(10, 13);
+            this.lblPassStatus.TabIndex = 28;
+            this.lblPassStatus.Text = ".";
+            // 
             // Registrarse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(344, 627);
+            this.Controls.Add(this.lblPassStatus);
             this.Controls.Add(this.txtConfContra);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtContraseña);
@@ -220,5 +231,6 @@
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.TextBox txtConfContra;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblPassStatus;
     }
 }

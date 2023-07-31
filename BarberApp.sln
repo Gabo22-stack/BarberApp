@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaEntidades", "CapaEntida
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacion", "CapaPresentacion\CapaPresentacion.csproj", "{54DDC135-A809-4FF9-A904-534A5C19A779}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BarberApp", "BarberApp", "{09156BBB-0AAB-492F-8E92-42698E4A1F63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76216145-110E-4EC7-96DF-0D61E400F915} = {09156BBB-0AAB-492F-8E92-42698E4A1F63}
+		{3092DC58-1EAD-43EB-96B7-6744AA698AF9} = {09156BBB-0AAB-492F-8E92-42698E4A1F63}
+		{C5537BC5-6189-4FC1-A349-1D06F60995AC} = {09156BBB-0AAB-492F-8E92-42698E4A1F63}
+		{54DDC135-A809-4FF9-A904-534A5C19A779} = {09156BBB-0AAB-492F-8E92-42698E4A1F63}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B08BD842-85CB-4F64-A0D6-77A17FEC3C66}

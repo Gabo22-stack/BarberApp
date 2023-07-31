@@ -10,7 +10,7 @@ namespace CapaDatos
 {
     public class CD_Conexion
     {
-        private SqlConnection Conexion = new SqlConnection("Server=ANGEL\\SQLEXPRESS;Database=Barberia;Integrated Security=true");
+        private SqlConnection Conexion = new SqlConnection("Server=(Local);Database=Barberia;Integrated Security=true");
         public SqlConnection AbrirConexion()
         {
             if (Conexion.State ==  ConnectionState.Closed)

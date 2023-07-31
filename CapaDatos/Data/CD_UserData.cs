@@ -14,7 +14,7 @@ namespace CapaDatos
             try
             {
                 string query = "SELECT Phone, Password FROM AppUser WHERE Phone=@Phone AND Password=@Password";
-                using (SqlConnection conexion = new SqlConnection("Server=ANGEL\\SQLEXPRESS; Database=Barberia; Integrated Security=true"))
+                using (SqlConnection conexion = new SqlConnection("Server=(Local); Database=Barberia; Integrated Security=true"))
                 {
                     conexion.Open();
                     using (SqlCommand cmd = new SqlCommand(query, conexion))
@@ -36,7 +36,7 @@ namespace CapaDatos
             try
             {
                 string query = "SELECT BarberUser, Password FROM Barber WHERE BarberUser=@BarberUser AND Password=@Password";
-                using (SqlConnection conexion = new SqlConnection("Server=ANGEL\\SQLEXPRESS; Database=Barberia; Integrated Security=true"))
+                using (SqlConnection conexion = new SqlConnection("Server=(Local); Database=Barberia; Integrated Security=true"))
                 {
                     conexion.Open();
                     using (SqlCommand cmd = new SqlCommand(query, conexion))

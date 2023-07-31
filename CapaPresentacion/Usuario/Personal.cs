@@ -13,7 +13,6 @@ namespace CapaPresentacion
 {
     public partial class Personal : Form
     {
-       
         public Personal()
         {
             InitializeComponent();
@@ -22,14 +21,8 @@ namespace CapaPresentacion
         private void BtnVolveraprincipal_Click(object sender, EventArgs e)
         {
             Principal FormPrincipal = new Principal();
-            this.PanelPersonal.Hide();
+            this.Hide();
             FormPrincipal.Show();
-
-        }
-
-        private void Personal_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void btnBarber1_Click(object sender, EventArgs e)

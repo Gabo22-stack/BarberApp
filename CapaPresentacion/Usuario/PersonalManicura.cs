@@ -11,10 +11,9 @@ using System.Windows.Forms;
 
 namespace CapaPresentacion
 {
-    public partial class PersonalManicuristas : Form
+    public partial class PersonalManicura : Form
     {
-     
-        public PersonalManicuristas()
+        public PersonalManicura()
         {
             InitializeComponent();
         }
@@ -22,7 +21,7 @@ namespace CapaPresentacion
         private void BtnVolveraprincipal_Click(object sender, EventArgs e)
         {
             Principal FormPrincipal = new Principal();
-            this.PnlPersonalManicurista.Hide();
+            this.Hide();
             FormPrincipal.Show();
         }
 
