@@ -30,5 +30,12 @@ namespace CapaPresentacion
             FormBarber.Show();
             this.Hide();
         }
+
+        private void btnHistorial_Click(object sender, EventArgs e)
+        {
+            HistorialEmpresa Historial = new HistorialEmpresa();
+            Historial.Show();
+            this.Hide();
+        }
     }
 }

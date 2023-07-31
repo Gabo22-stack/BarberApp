@@ -121,7 +121,7 @@
   <data name="fotoRedonda1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAVsAAAGICAYAAADvZUNsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAA/7JJREFUeF7sfQV8FNf+/b9ogLi7ewhxDwkxCCQEggQCCRAI7u7u7rSUOpS2lFIK
+        wAAADsABataJCQAA/7JJREFUeF7sfQV8FNf+/b9ogLi7ewhxDwkxCCQEggQCCRAI7u7u7rSUOpS2lFIK
         LYV6Sw3qLq/uLk/6pO/3zv+euzvJZnM32QiQQObzOZ/AndnZ2d2Zc8/96v8TG9rQhpaA9u2ug6t1RyT4
         dMXAKBvMznbClmJ33FLujfsm+OGEwH3j/XBc4PAYH9w+2gf7h3lh7zBPiZvKvOX4nRW+ODnRH8d5vMBd
         Y33l/qV9XTEq2R69gi0R5NwZ3Tq1U15HG9pwiaAcbEMbLinat/t/sOrcDtGeXTAqyV6Qqock0dOT/XGr
@@ -1676,7 +1676,7 @@
   <data name="btnHistorial.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAAWAAAAFgEjckL1AAACCUlE
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAAVAAAAFQGOy2OYAAACCUlE
         QVRoQ+2aO0oEQRRFxx8iKmpm4B4EY0EjUxNNXICgIqMYm7gGE2NXYSYiGKjoTkQFfyh6D0xB0/R/XrXU
         UBcOSM9437td3VXVTHcKtCk+xK9HvsWJGBPmOhAU+RHv4s2YL4H/i6CWeYhDQYFHsSZWDFkWp8KNxKvY
         F6PCTC7ApZjggLGcv4OR6AqzEG0HcCHMRuI/AgAhdsWI6Et5AcbFljgSfKcKnNUFkRTH0807ngX/01cI

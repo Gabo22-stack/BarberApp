@@ -90,6 +90,7 @@
             this.btnHistorial.TabIndex = 3;
             this.btnHistorial.Text = "HISTORIAL";
             this.btnHistorial.UseVisualStyleBackColor = true;
+            this.btnHistorial.Click += new System.EventHandler(this.btnHistorial_Click);
             // 
             // label1
             // 
